@@ -13,16 +13,21 @@ function App() {
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Wildan</h1>
           <p className="text-base/loose mb-6 opacity-50">Saya memiliki ketertarikan sebagai Mechanical Design yang berfokus pada pengembangan desain mekanik presisi. Mengutamakan efisiensi, akurasi, dan kemudahan produksi dalam setiap rancangan, serta berkomitmen menghadirkan solusi desain yang fungsional dan inovatif untuk kebutuhan industri manufaktur.</p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a
-              href="/CV_Wildan_Ibnu_Jamil.pdf"
-              download="CV_Wildan_Ibnu_Jamil.pdf"
-              className="flex items-center gap-2 bg-violet-700 p-4 rounded-2xl text-white font-medium hover:bg-violet-600 transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/30"
-            >
-              Download CV
-              <i className="ri-download-line ri-lg"></i>
-            </a>
-            <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek<i className="ri-arrow-down-line ri-lg"></i></a>
-          </div>
+  <a
+    href="/CV_Wildan_Ibnu_Jamil.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 bg-violet-700 p-4 rounded-2xl text-white font-medium hover:bg-violet-600 transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/30"
+  >
+    Lihat CV
+    <i className="ri-eye-line ri-lg"></i>
+  </a>
+  <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
+    Lihat Proyek
+    <i className="ri-arrow-down-line ri-lg"></i>
+  </a>
+</div>
+
         </div>
         <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
       </div>
