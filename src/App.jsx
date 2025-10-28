@@ -1,7 +1,37 @@
 import DataImage from "./data";
 import { listTools, listProyek } from "./data"
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 
 function App() {
+  const form = useRef();
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.sendForm(
+      "service_4arz60t",   // ganti dengan Service ID EmailJS
+      "template_l952ofd",  // ganti dengan Template ID EmailJS
+      form.current,
+      "qJtcViLFnQ1kKoFIp"    // ganti dengan Public Key EmailJS
+    )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setMessage("Pesan berhasil dikirim!");
+          setLoading(false);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          setMessage("Terjadi kesalahan, coba lagi.");
+          setLoading(false);
+        }
+      );
+  };
   return (
     <>
       <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
