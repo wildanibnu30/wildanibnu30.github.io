@@ -119,7 +119,7 @@ function App() {
       <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
         <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" >Kontak</h1>
         <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true" >Mari Tehubung Dengan Saya</p>
-        <form action="https://formsubmit.co/draftinova@gmail.com" method="POST" className="bg-zinc-800 p-10 w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" >
+        <form action="https://formsubmit.co/wildsketch30@gmail.com" method="POST" className="bg-zinc-800 p-10 w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true" >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Nama Lengkap</label>
