@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href="https://facebook.com/wildsketch30" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors">
                     <i className="ri-facebook-fill ri-2x"></i>
                 </a>
-                <a href="https://youtube.com/wildsketch30" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors">
+                <a href="https://www.youtube.com/@wildsketch30" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-red-600 transition-colors">
                     <i className="ri-youtube-fill ri-2x"></i>
                 </a>
             </div>
