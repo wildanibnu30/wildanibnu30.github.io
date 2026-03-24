@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildan Ibnu Jamil - Portfolio</title>
+    <link rel="icon" href="public/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGASI / HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <span class="logo-mark">W</span> Wildan Ibnu Jamil
+            </a>
+            <nav class="nav-desktop">
+                <a href="#about">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="public/document/cv.pdf" target="_blank" class="btn-small border-link">View My CV</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileBtn">Menu ☰</button>
+        </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="public/document/cv.pdf" target="_blank" style="font-weight: bold; color: blue;">View My CV</a>
+    </nav>
+
+    <!-- KONTEN UTAMA -->
+    <main>
+        
+        <!-- BAGIAN HERO / PERKENALAN -->
+        <section id="home" class="section">
+            <div class="container hero">
+                <div class="hero-content">
+                    <div class="status-badge">🟢 Open to Work</div>
+                    <h1>Mechanical Engineering Portfolio</h1>
+                    <p>Hello, my name is <strong>Wildan Ibnu Jamil</strong>. I am a Mechanical Engineering graduate. I can help you create 2D technical drawings and 3D machine models using software like SolidWorks, Inventor, and AutoCAD.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">See My Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="public/images/hero_img.webp" alt="Foto Wildan Ibnu Jamil" width="300" height="300">
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN TENTANG SAYA -->
+        <section id="about" class="section bg-light">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="two-columns">
+                    <div class="column">
+                        <p>I graduated from SMKN 1 Kertosono majoring in Mechanical Engineering. I won 4th place (Juara Harapan 1) in the East Java Skills Competition, proving my ability to work well under pressure.</p>
+                        <p>My work experience includes:
+                            <br>- <strong>6 months internship</strong> at Balai Yasa Surabaya Gubeng.
+                            <br>- <strong>5 months work</strong> at PT Widjaya Teknik Indonesia creating drafting and industrial designs.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h3>Software I Use</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <img src="public/images/Tools/solidworks.png" alt="SolidWorks logo" width="40" height="40">
+                                <span>SolidWorks</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="public/images/Tools/inventor.png" alt="Inventor logo" width="40" height="40">
+                                <span>Autodesk Inventor</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="public/images/Tools/autocad.png" alt="AutoCAD logo" width="40" height="40">
+                                <span>AutoCAD</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="public/images/Tools/excel.png" alt="Excel logo" width="40" height="40">
+                                <span>Microsoft Excel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- BAGIAN LAYANAN -->
+        <section id="services" class="section bg-light">
+            <div class="container">
+                <h2>Services I Offer</h2>
+                <p>I provide practical engineering design and technical drawing services.</p>
+                
+                <div class="grid-3">
+                    <div class="card">
+                        <h3>1. 3D CAD Modeling</h3>
+                        <p>I build clear and precise 3D models for machine parts or full assemblies so you can visualize them before manufacturing.</p>
+                    </div>
+                    <div class="card">
+                        <h3>2. Technical Drafting</h3>
+                        <p>I create highly detailed 2D technical drawings (shop drawings) that mechanics and manufacturers can easily read and follow to build your product.</p>
+                    </div>
+                    <div class="card">
+                        <h3>3. Data Management</h3>
+                        <p>I organize part lists, inventory tracking, and basic cost estimations using Microsoft Excel so your projects stay organized.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN PORTOFOLIO -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>My Past Projects</h2>
+                <p>Click on any project to view the details or open the document.</p>
+                
+                <div class="grid-3">
+                    <!-- Project 1 -->
+                    <div class="card project-card">
+                        <img src="public/images/projects/mechanical_parts.webp" alt="Mechanical Parts">
+                        <span class="inline-badge">Learning Project</span>
+                        <h3>Mechanical Parts 3D</h3>
+                        <p>3D models of machine parts with focus on precise dimensions.</p>
+                        <a href="public/document/mechanical_parts.pdf" target="_blank" class="text-link">Open PDF Document ➔</a>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="card project-card">
+                        <img src="public/images/projects/mechanical_assembly.webp" alt="Mechanical Assembly">
+                        <span class="inline-badge">Learning Project</span>
+                        <h3>Mechanical Assembly</h3>
+                        <p>Assembly of multiple components to verify fit and machine function.</p>
+                        <a href="public/document/mechanical_assembly.pdf" target="_blank" class="text-link">Open PDF Document ➔</a>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="card project-card">
+                        <img src="public/images/projects/technical_drawing.webp" alt="Technical Drawing">
+                        <span class="inline-badge">Learning Project</span>
+                        <h3>Technical Drawing</h3>
+                        <p>Detailed 2D drawings properly annotated for manufacturing needs.</p>
+                        <a href="public/document/technical_drawing.pdf" target="_blank" class="text-link">Open PDF Document ➔</a>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="card project-card">
+                        <img src="public/images/projects/machine_simulation.webp" alt="Machine Simulation">
+                        <span class="inline-badge">Learning Project</span>
+                        <h3>Machine Simulation</h3>
+                        <p>Motion study and simulation demonstrating the working mechanism.</p>
+                        <a href="public/video/machine_simulation.mp4" target="_blank" class="text-link">Watch Video ➔</a>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="card project-card">
+                        <img src="public/images/projects/liquid_packaging_machine.webp" alt="Liquid Packaging Machine">
+                        <span class="inline-badge industry">Industry Experience</span>
+                        <h3>Liquid Packaging Machine</h3>
+                        <p>Designed parts and assemblies for a real liquid packaging machine system.</p>
+                        <a href="public/document/liquid_packaging_machine.pdf" target="_blank" class="text-link">Open PDF Document ➔</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN KONTAK -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>If you need help with engineering designs, feel free to reach out to me.</p>
+                
+                <div class="two-columns">
+                    <div class="column">
+                        <div class="contact-info">
+                            <p><strong>Email:</strong> <br><a href="mailto:wildanibnujamil30@gmail.com" class="text-link">wildanibnujamil30@gmail.com</a></p>
+                            <p><strong>WhatsApp:</strong> <br><a href="https://wa.me/6287812333374" target="_blank" class="text-link">+62 878-1233-3374</a></p>
+                            <p><strong>LinkedIn:</strong> <br><a href="https://linkedin.com/in/wildan-ibnu-1b8a2a32a" target="_blank" class="text-link">Wildan Ibnu Jamil</a></p>
+                            <p><strong>Location:</strong> <br>Nganjuk, East Java, Indonesia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="column">
+                        <form action="mailto:wildanibnujamil30@gmail.com" method="post" enctype="text/plain" class="simple-form">
+                            <label>Your Name:</label>
+                            <input type="text" name="name" required>
+                            
+                            <label>Your Email:</label>
+                            <input type="email" name="email" required>
+                            
+                            <label>Message / Project Details:</label>
+                            <textarea name="message" rows="4" required></textarea>
+                            
+                            <button type="submit" class="btn btn-primary">Send Email</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Wildan Ibnu Jamil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script sederhana untuk Menu Mobile -->
+    <script src="script.js"></script>
+</body>
+</html>
